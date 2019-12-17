@@ -1,0 +1,90 @@
+.tg_raffle_sect {
+    position: relative;
+    z-index: 1;
+    padding: 0 0 9.625em;
+}
+.tg_raffle_sect:before {
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-image: url(../img/tg-raffle-sect/top-bg.svg);
+    height: 9.0625em;
+    width: 120em;
+    margin: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    min-width: 100%;
+    z-index: -1;
+}
+.tg_raffle_sect .row1 {
+    display: flex;
+    max-width: 55em;
+    margin: 0 auto;
+    align-items: center;
+}
+.tg_raffle_sect .row1 .col1 {
+    width: 47%;
+    box-sizing: border-box;
+    padding: 0 1.25em 0 0;
+}
+.tg_raffle_sect .row1 .col2 {
+    width: 53%;
+}
+.tg_raffle_sect .row1 .sub_row1 {
+    margin: -7em 0 0;
+}
+.tg_raffle_sect .row1 .sub_row1  .image {
+    display: block;
+    max-width: 100%;
+}
+.tg_raffle_sect .row1 .sub_row2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 115%;
+    margin: 0 0 0.25em;
+}
+.tg_raffle_sect .row1 .sub_row3 {
+    color: #555555;
+    margin: 0 0 3em;
+}
+.tg_raffle_sect .row1 .sub_row4 {
+    font-size: 1.125em;
+}
+.tg_raffle_sect .row1 .sub_row4 .grey_butt {
+    width: 20em;
+}
+@media(max-width: 767px) {
+    .tg_raffle_sect {
+        padding: 0 0 3em;
+    }
+    .tg_raffle_sect:before,
+    .tg_raffle_sect:after {
+        display: none;
+    }
+    .tg_raffle_sect .row1 {
+        display: block;
+    }
+    .tg_raffle_sect .row1 .col {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .tg_raffle_sect .row1 .sub_row1 {
+        margin: -3.25em 0 2em;
+    }
+    .tg_raffle_sect .row1 .sub_row2 {
+        font-size: 2.25em;
+        margin: 0 0 0.75em;
+    }
+    .tg_raffle_sect .row1 .sub_row3 {
+        font-size: 1em;
+        margin: 0 0 5em;
+    }
+    .tg_raffle_sect .row1 .sub_row4 .grey_butt {
+        width: 100%;
+    }
+}

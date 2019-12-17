@@ -1,0 +1,147 @@
+.bonus_sect {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bonus-sect/bg.png);
+    color: #ffffff;
+    padding: 4.5em 0 8.375em;
+    box-sizing: border-box;
+    min-height: 34em;
+}
+.bonus_sect .row1 {
+    padding: 0 0 0 25%;
+}
+.bonus_sect .row1 .sub_row1 {
+    font-size: 4em;
+    font-family: Ubuntu, sans-serif;
+    line-height: 115%;
+    margin: 0;
+}
+.bonus_sect .row1 .sub_row2 {
+    font-size: 2.25em;
+    font-weight: 700;
+    border-bottom: 0.15em solid #FDD030;
+    display: inline-block;
+    margin: 0 0 0.35em;
+}
+.bonus_sect .row1 .sub_row3 {
+    margin: 0 0 1em;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+.bonus_sect .row1 .sub_row3 .line1 {
+    margin: 0 0 0.25em;
+}
+.bonus_sect .row1 .sub_row3 .line2 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.bonus_sect .row1 .sub_row3 .line2 .item {
+    padding: 0 0 0 2em;
+}
+.bonus_sect .row1 .sub_row3 .line2 .item:before {
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em 0 -2em;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/tpl/img/icons/check-gold.png);
+    content: '';
+}
+.bonus_sect .row1 .sub_row3 .line2 .item .gold {
+    color: #FDD030;
+}
+.bonus_sect .row1 .sub_row4 {
+    font-size: 1.125em;
+    font-weight: 500;
+}
+.bonus_sect .row1 .sub_row4 .line1 {
+    margin: 0 0 0.25em;
+}
+.bonus_sect .row1 .sub_row4 .line2 .orange_butt {
+    width: 14em;
+    position: relative;
+    z-index: 2;
+}
+.bonus_sect .row1 .sub_row4 .line2 .orange_butt:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3.35em;
+    height: 3.35em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/bonus-sect/butt-arrow.png);
+    bottom: 10%;
+    left: 100%;
+}
+.bonus_sect .row1 .sub_row0 {
+    display: none;
+}
+@media(max-width: 1199px) {
+    .bonus_sect {
+        padding: 4em 0;
+        min-height: 20em;
+    }
+    .bonus_sect .row1 .sub_row1 {
+        font-size: 3em;
+    }
+    .bonus_sect .row1 .sub_row2 {
+        font-size: 1.5em;
+    }
+    .bonus_sect .row1 .sub_row2 {
+        font-size: 1em;
+    }
+    .bonus_sect .row1 .sub_row3 {
+        font-size: 1em;
+    }
+    .bonus_sect .row1 .sub_row4 {
+        font-size: 1em;
+    }
+}
+@media(max-width: 767px) {
+    .bonus_sect {
+        padding: 1em 0 3em;
+    }
+    .bonus_sect .row1 {
+        padding: 0;
+    }
+    .bonus_sect .row1 .sub_row0 {
+        margin: 0 0 0.25em;
+        display: block;
+    }
+    .bonus_sect .row1 .sub_row0 .image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .bonus_sect .row1 .sub_row1 {
+        font-size: 2.25em;
+        margin: 0 0 0.5em;
+    }
+    .bonus_sect .row1 .sub_row2 {
+        font-size: 1.125em;
+        padding: 0 0 1em;
+        margin: 0 0 1em;
+        display: block;
+    }
+    .bonus_sect .row1 .sub_row3 {
+        font-size: 1.125em;
+        margin: 0 0 2.35em;
+    }
+    .bonus_sect .row1 .sub_row4 {
+        font-size: 1.125em;
+    }
+    .bonus_sect .row1 .sub_row4 .line1 {
+        display: none;
+    }
+    .bonus_sect .row1 .sub_row4 .line2 .orange_butt {
+        width: 100%;
+    }
+    .bonus_sect .row1 .sub_row4 .line2 .orange_butt:after {
+        display: none;
+    }
+}

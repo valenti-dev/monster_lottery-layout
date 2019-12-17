@@ -1,0 +1,93 @@
+.winners_sect {
+    padding: 13.125em 0 12.625em;
+}
+.winners_sect .row1 {
+    font-size: 4em;
+    line-height: 115%;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    margin: 0 0 0.5em;
+}
+.winners_sect .row2 {
+    max-width: 61.875em;
+    margin: 0 auto;
+}
+.winners_sect .row2 .slick-prev {
+    background-image: url(../img/icons/prev-slide-000.svg);
+    transform: translate(-100%, -50%);
+}
+.winners_sect .row2 .slick-next {
+    background-image: url(../img/icons/next-slide-000.svg);
+    transform: translate(100%, -50%);
+}
+.winners_sect .row2 .review {
+    margin: 0 0.625em;
+    background-color: rgba(228, 232, 242, 0.5);
+    border-radius: 0.5em;
+    padding: 1.5em;
+    box-sizing: border-box;
+    opacity: 0.25;
+    visibility: visible;
+}
+.winners_sect .row2 .review.slick-active {
+    opacity: 1;
+}
+.winners_sect .row2 .review ._row1 {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    max-width: 11em;
+    margin: 0 auto 1.25em;
+}
+.winners_sect .row2 .review ._row1:before {
+    content: '';
+    display: block;
+    padding: 50% 0;
+}
+.winners_sect .row2 .review ._row2 {
+    font-size: 1.5em;
+}
+.winners_sect .row2 .review ._row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0.5em;
+}
+.winners_sect .row2 .review ._row3 ._col {
+    width: 50%;
+    font-weight: 500;
+    font-size: 1.125em;
+}
+.winners_sect .row2 .review ._row4 {
+    color: #555555;
+}
+@media(max-width: 1199px) {
+    .winners_sect {
+        padding: 6em 0 4em;
+    }
+    .winners_sect .row1 {
+        font-size: 3em;
+    }
+    .winners_sect .row2 {
+        max-width: none;
+        margin: 0 -0.625em;
+    }
+    .winners_sect .row2 .slick-prev {
+        transform: translate(0, -50%);
+        left: 0.625em;
+    }
+    .winners_sect .row2 .slick-next {
+        transform: translate(0, -50%);
+        right: 0.625em;
+    }
+}
+@media(max-width: 767px) {
+    .winners_sect {
+        padding: 3em 0;
+    }
+    .winners_sect .row1 {
+        font-size: 2.25em;
+        margin: 0 0 0.75em;
+        text-align: center;
+    }
+}
